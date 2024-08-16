@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #91e5f6;
+}
+.container {
+  height: 45vh;
+  width: 260px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.box {
+  margin: 20px 0 10px 0;
+}
+.amt {
+  margin: 25px 0 10px 0;
+}
+.box input,
+select,
+button {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+}
+input {
+  border: 1px solid lightgray;
+}
+.dropdown {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown i {
+  margin-top: 25px;
+  margin: 25px 0 10px 0;
+}
+img {
+  height: 30px;
+  width: 30px;
+}
+.dropdown-list {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.msg {
+  margin: 25px 0 10px 0;
+}
+button {
+  margin: 25px 0 10px 0;
+  background-color: purple;
+  color: #ffff;
+}
